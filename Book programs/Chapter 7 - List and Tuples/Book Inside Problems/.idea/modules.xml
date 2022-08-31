@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Book Inside Problems.iml" filepath="$PROJECT_DIR$/.idea/Book Inside Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lists/List methods/.idea/List methods.iml" filepath="$PROJECT_DIR$/Lists/List methods/.idea/List methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tuples/.idea/Tuples.iml" filepath="$PROJECT_DIR$/Tuples/.idea/Tuples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lists/List loops/for loop/.idea/for loop.iml" filepath="$PROJECT_DIR$/Lists/List loops/for loop/.idea/for loop.iml" />
+    </modules>
+  </component>
+</project>

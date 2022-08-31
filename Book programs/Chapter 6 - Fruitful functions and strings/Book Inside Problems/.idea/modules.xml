@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Book Inside Problems.iml" filepath="$PROJECT_DIR$/.idea/Book Inside Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List as arrays/.idea/List as arrays.iml" filepath="$PROJECT_DIR$/List as arrays/.idea/List as arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/.idea/Searching Algorithms.iml" filepath="$PROJECT_DIR$/Searching Algorithms/.idea/Searching Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/String functions/.idea/String functions.iml" filepath="$PROJECT_DIR$/Strings/String functions/.idea/String functions.iml" />
+    </modules>
+  </component>
+</project>
