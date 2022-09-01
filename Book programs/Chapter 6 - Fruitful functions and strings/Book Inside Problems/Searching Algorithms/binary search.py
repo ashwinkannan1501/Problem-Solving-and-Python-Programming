@@ -4,32 +4,34 @@ list or tuple must be sorted. It is first divided into equal halves. The middle 
 elements and the right elements"""
 
 
-def binary_search(list_elements, search_element):
+def binary_search(lists, search):
     lowest_element_index = 0
-    highest_element_index = len(list_elements) - 1
+    highest_element_index = len(lists) - 1
     while lowest_element_index < highest_element_index:
         middle_element_index = (lowest_element_index + highest_element_index) // 2
-        if search_element == list_elements[middle_element_index]:
-            print(f'The search element ({search_element}) was found in the list ({list_elements})')
+        if search == lists[middle_element_index]:
+            print(f'The search element ({search}) was found in the list ({lists}) at the position {lists.index(search) + 1}')
             break
-        elif search_element < list_elements[middle_element_index]:
+        elif search < lists[middle_element_index]:
             highest_element_index = middle_element_index - 1
-            print(f'The search element ({search_element}) was found in the list ({list_elements}) at index {highest_element_index}')
-            break
-        elif search_element > list_elements[middle_element_index]:
+        elif search > lists[middle_element_index]:
             lowest_element_index = middle_element_index + 1
-            print(f'The search element ({search_element}) was found in the list ({list_elements}) at index {lowest_element_index}')
-            break
-        else:
-            print(f'The search element ({search_element}) was not found in the list ({list_elements})')
-            break
+    else:
+        print(f'The search element ({search}) was not found in the list ({lists})')
 
 
-list_elements = [18, 2, 5, 6, 1, 0, 100, 95]
-print(f'Unsorted list elements : {list_elements}')
-list_elements.sort()
-print(f'Sorted list elements : {list_elements}')
+try:
+    list_elements = list(map(int, input("Enter the list values in unsorted manner (Only in Integer) :- ").split(",")))
+    print(f'Unsorted list elements : {list_elements}')
+    list_elements.sort()
+    print(f'Sorted list elements : {list_elements}')
 
-search_element = int(input("Enter the search element : "))
+    search_element = int(input("Enter the search element : "))
 
-binary_search(list_elements, search_element)
+except ValueError:
+    print("The Value is not defined")
+except NameError:
+    print("Please Provide Some Value")
+
+else:
+    binary_search(list_elements, search_element)

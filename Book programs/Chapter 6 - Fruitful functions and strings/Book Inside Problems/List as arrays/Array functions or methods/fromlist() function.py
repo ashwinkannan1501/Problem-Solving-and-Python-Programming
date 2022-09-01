@@ -1,5 +1,5 @@
 # fromlist() function
-"""The fromlist() function s used to concatenate a list elements into array of elements
+"""The fromlist() function is used to concatenate a list elements into array of elements
 SYNTAX : array.fromlist(list_elements)"""
 
 from array import array

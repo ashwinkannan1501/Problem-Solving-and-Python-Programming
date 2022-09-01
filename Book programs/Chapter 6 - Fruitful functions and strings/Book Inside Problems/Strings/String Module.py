@@ -1,6 +1,6 @@
 """STRING MODULE :
         1) String module contains a number of function to process the standard python strings.
-        2) Many string module functions are available as string object methods
+        2) Many string modules functions are available as string object methods
 SYNTAX : import module_name    (i.e) import string"""
 
 import string
@@ -21,10 +21,11 @@ print(f'String ASCII uppercase letters : {string.ascii_uppercase}')
 print(f'String digit characters : {string.digits}')
 
 # String hexadecimal digits characters
-print(f'String Hexdigits characters :" {string.hexdigits}')
+print(f'String Hexdigits characters : {string.hexdigits}')
 
 # String octal digits characters
 print(f'String octal digits characters : {string.octdigits}')
 
 # String whitespaces
 print(f'String whitespace characters : {string.whitespace}')
+
